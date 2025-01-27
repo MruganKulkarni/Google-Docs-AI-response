@@ -12,10 +12,10 @@ app = Flask(__name__)
 CORS(app)
 
 # Constants
-SERVICE_ACCOUNT_FILE = '/Users/mrugankulkarni/Downloads/geminiapi-424910-f463d775479a.json'
-API_KEY = 'AIzaSyBbTpUdHOksGCDJsh_sxdW90BoiNrqW8Qw'
-CHILD_DOCUMENT_ID = '117Jo05wTThpiRuwVhb1_WecDiCrZR4mcNIiBQn1qiFQ'
-ADULT_DOCUMENT_ID = '19nyigkJO4FA1Fk08I2tH3YZU6K6wgsqKOxh9gFNIK8c'
+SERVICE_ACCOUNT_FILE = '[service account file .json]'
+API_KEY = '[api key]'
+CHILD_DOCUMENT_ID = '[sample document id under 18 account]'
+ADULT_DOCUMENT_ID = '[sample document id over 18 account]'
 
 # Helper function to read Google Doc content
 def read_google_doc(service_account_file, document_id):
