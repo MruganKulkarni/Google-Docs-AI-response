@@ -5,12 +5,12 @@ import LogoutButton from "./components/logout";
 import { gapi } from 'gapi-script';
 import axios from 'axios';
 
-const CLIENT_ID = "808675625599-71pa7g983jeo2jshn7ijqme0n5tisn65.apps.googleusercontent.com";
+const CLIENT_ID = "[client id]";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [generatedText, setGeneratedText] = useState('');
-  const [documentId, setDocumentId] = useState('19nyigkJO4FA1Fk08I2tH3YZU6K6wgsqKOxh9gFNIK8c'); // Default to the adult document
+  const [documentId, setDocumentId] = useState('[document id]'); // Default to the adult document
 
   useEffect(() => {
     function start() {
