@@ -3,7 +3,7 @@ import { GoogleLogin } from 'react-google-login';
 import axios from 'axios';
 import { jwtDecode } from 'jwt-decode';
 
-const clientid = "808675625599-71pa7g983jeo2jshn7ijqme0n5tisn65.apps.googleusercontent.com";
+const clientid = "[client id]";
 
 function Login({ setIsLoggedIn, setDocumentId }) {
   const onSuccess = async (res) => {
